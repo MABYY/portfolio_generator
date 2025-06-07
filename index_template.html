@@ -58,13 +58,13 @@
     <header class="page-header">
       <div class="container">
         <div class="header-top flex-responsive">
-          {% if image_path %}
+          <!-- {% if image_path %}
             <img class="header-image"
                  width="256"
                  height="256"
                  src="{{ image_path }}"
                  alt="{{ name }} Profile Image" />
-          {% endif %}
+          {% endif %} -->
           <div class="header-info">
             <h1>{{ name }}</h1>
             {% if label %}<h2 class="header-label">{{ label }}</h2>{% endif %}
@@ -197,7 +197,7 @@
             </section>
           {% endif %} -->
 
-          {% if references %}
+          <!-- {% if references %}
             <section>
               <h2 class="section-heading">References</h2>
               {% for ref in references %}
@@ -205,14 +205,14 @@
                   {% if ref.name %}<h3>{{ ref.name }}</h3>{% endif %}
                   {% if ref.relation %}<p class="section-label">{{ ref.relation }}</p>{% endif %}
                   {% if ref.reference %}
-                    <!-- <blockquote>
+                    <blockquote>
                       {{ ref.reference }}
-                    </blockquote> -->
+                    </blockquote>
                   {% endif %}
                 </section>
               {% endfor %}
             </section>
-          {% endif %}
+          {% endif %} -->
         </main>
 
         <!-- Sidebar Section -->
@@ -289,7 +289,7 @@
               </ul>
             </section>
           {% endif %}
-
+<!-- 
           {% if interests %}
             <section>
               <h2 class="section-heading">Interests</h2>
@@ -313,7 +313,7 @@
                 </section>
               {% endfor %}
             </section>
-          {% endif %}
+          {% endif %} -->
         </aside>
       </div>
     </div>

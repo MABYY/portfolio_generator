@@ -201,7 +201,7 @@
               </ul>
             </section>
           {% endif %}
-          <!-- {% if references %}
+          {% if references %}
             <section>
               <h2 class="section-heading">References</h2>
               {% for ref in references %}
@@ -209,14 +209,14 @@
                   {% if ref.name %}<h3>{{ ref.name }}</h3>{% endif %}
                   {% if ref.relation %}<p class="section-label">{{ ref.relation }}</p>{% endif %}
                   {% if ref.reference %}
-                    <blockquote>
+                    <!-- <blockquote>
                       {{ ref.reference }}
-                    </blockquote>
+                    </blockquote> -->
                   {% endif %}
                 </section>
               {% endfor %}
             </section>
-          {% endif %} -->
+          {% endif %}
           <!-- {% if volunteer_experience %}
             <section>
               <h2 class="section-heading">Volunteer Experience</h2>

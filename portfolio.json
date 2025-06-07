@@ -74,10 +74,24 @@
         }
       ]
     },
+        {
+      "title": "CAFCI Pull Data",
+      "summary": "Track the Argentinean Mutual Fund Industry",
+      "url": "https://github.com/MABYY/PullDataCafci",
+      "highlights": [
+        "The code pulls and organizes data available through the public CAFCI API"
+      ],
+      "images": [
+        {
+          "img_path": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg",
+          "caption": "Python"
+        }
+      ]
+    },
     {
       "title": "Portfolio Daily Data",
-      "summary": "Track the Argentinean Mutual Fund Industry",
-      "url": "https://sample.com",
+      "summary": "Analize the Argentinean Mutual Fund Industry",
+      "url": "https://github.com/MABYY/portfolio_data",
       "highlights": [
         "Organized and pulled data available through the Argentinean mutual funds’ chamber (CAFCI) public API using Python",
         "Created the backend code to website allowing users login access to select the dates and the name of funds to work with",
