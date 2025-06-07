@@ -1,105 +1,120 @@
 {
-  "name": "Your Name",
-  "label": "Optional Label",
-  "image_path": "img/default-image.png",
+  "name": "Maria M. Negri",
+  "label": "Software Developer",
+  "image_path": "https://media.licdn.com/dms/image/v2/C4E03AQHK6tHgpiQeqQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1616512086611?e=1754524800&v=beta&t=nBXBZJaKQ_AtO9FB4rXfiN6Uusv14lTA9DEkA6n5A0w",
   "contact": {
-    "email": "FirstLast@Sample.com",
-    "phone": "123-456-7890",
-    "location": "City, State, Country"
+    "email": "mariamengri@gmail.com",
+    "phone": "954-516-4586",
+    "location": "Miami, FL, USA"
   },
-  "summary": "A short summary of who you are, your background, experience, and interests to give visitors a quick introduction to you.",
+  "summary": "Software developer with 10+ years experience in asset management. Excited to leverage my proven critical thinking and problem-solving expertise with my software engineering/web development skills.",
   "base_url": "127.0.0.1:5500",
   "social_links": [
     {
-      "label": "Personal Website",
-      "url": "https://sample.com",
-      "svg_path": "img/globe.svg"
-    },
-    {
-      "label": "First Social",
-      "url": "https://sample.com",
-      "svg_path": "img/linkedin.svg"
-    },
-    {
-      "label": "Second Social",
-      "url": "https://sample.com",
+      "label": "GitHub Repository",
+      "url": "https://github.com/MABYY",
       "svg_path": "img/github.svg"
+    },
+    {
+      "label": "Linkedin",
+      "url": "https://www.linkedin.com/in/maria-negri/",
+      "svg_path": "img/linkedin.svg"
     }
   ],
   "work_experience": [
     {
-      "company": "Latest Job",
-      "position": "Position One",
+      "company": "Oliphant",
+      "position": "Software Developer",
       "url": "https://sample.com",
-      "start_date": "01/01/2020",
+      "start_date": "08/01/2020",
       "end_date": "Present",
-      "summary": "Short summary about present job and what the position entails",
-      "highlights": [
-        "First Duty of Current Job",
-        "Second Duty of Current Job",
-        "Third Duty of Current Job"
+      "summary": "Software developer",
+          "highlights": [
+        "Migrated GRAV CRM website to the current one used by the users to make payments",
+        "Developed the front-end source code for applications using Angular based on provided UX/UI design.",
+        "Supported the development, testing and deployment process of migrating an application into a website using React.",
+        "Collaborate closely in an Agile environment to ensure quality, security and maintenance of the application, and to ensure code meets development standards and guidelines",
+        "Implemented Argyle integration",
+        "Debug and updated Flask source code to fix errors",
+        "Learned Angular, Flask , Docker containers and networks in order to gain additional software skills to implement into the work project."
       ]
     },
     {
-      "company": "Previous Job",
-      "position": "Position Two",
-      "url": "https://sample.com",
-      "start_date": "01/01/2010",
-      "end_date": "01/01/2020",
-      "summary": "Short summary about previous job and what that position entailed",
+      "company": "Schroders",
+      "position": "Fixed Income Analyst",
+      "url": "https://www.schroders.com",
+      "start_date": "11/01/2011",
+      "end_date": "12/31/2020",
+      "summary": "Fixed income analyst focused on portfolio management for institutional clients",
       "highlights": [
-        "First Duty of Previous Job",
-        "Second Duty of Previous Job",
-        "Third Duty of Previous Job"
+        "Successfully tailored and implemented investment strategies for clients who needed to comply with both the current regulation and their performance goals.",
+        "Schroders Pyme Fund was top 3 performer in 2017",
+        "Handled portfolio management, SME funds, mandate funds, traded stocks and bonds",
+        "Priced bonds, trusts, and post-dated checks and monitored yield spreads",
+        "Participated in portfolio meetings with trade ideas, highlighting news and events in local and international markets",
+        "Performed FX & IR modeling and weekly follow-ups using Python applications and provided daily asset pricing using VBA",
+        "Exchanged and implemented trade ideas with institutional clients daily"
       ]
     }
   ],
   "projects": [
     {
-      "title": "My First Project",
-      "summary": "Short summary about my first project",
-      "url": "https://sample.com",
+      "title": "Portfolio Tracker",
+      "summary": "Track your investment portfolio",
+      "url": "https://github.com/MABYY/spring-invest",
       "highlights": [
-        "First Highlight of Project One",
-        "Second Highlight of Project One",
-        "Third Highlight of Project One"
+        "This is a Spring Boot application for a stock trading platform.",
+        "It provides user management (registration, authentication, and profile management), stores data in a MySQL database and fetches stock market data from the MarketStack API.",
+        "Run the application using Docker"
       ],
       "images": [
         {
-          "img_path": "https://picsum.photos/600/338?random=1",
-          "caption": "Image Caption 1"
-        },
-        {
-          "img_path": "https://picsum.photos/600/338?random=2",
-          "caption": "Image Caption 2"
-        },
-        {
-          "img_path": "https://picsum.photos/600/338?random=3",
-          "caption": "Image Caption 3"
+          "img_path": "https://upload.wikimedia.org/wikipedia/commons/7/79/Spring_Boot.svg",
+          "caption": "Java Spring Boot"
         }
       ]
     },
     {
-      "title": "My Second Project",
-      "summary": "Short summary about my second project",
+      "title": "Portfolio Daily Data",
+      "summary": "Track the Argentinean Mutual Fund Industry",
       "url": "https://sample.com",
       "highlights": [
-        "First Highlight of Project Two",
-        "Second Highlight of Project Two",
-        "Third Highlight of Project Two"
+        "Organized and pulled data available through the Argentinean mutual funds’ chamber (CAFCI) public API using Python",
+        "Created the backend code to website allowing users login access to select the dates and the name of funds to work with",
+        "Deployed the frontend code to allow users to create a profile, log in and request the daily  asset allocation of a fund"
       ],
       "images": [
         {
-          "img_path": "https://picsum.photos/600/338?random=4",
-          "caption": "Image Caption 4"
-        },
+          "img_path": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg",
+          "caption": "Python"
+        }
+      ]
+    },
+      {
+      "title": "Time series analysis using LSTM",
+      "summary": "This project explores Bitcoin price using an LSTM model and technical analysis indicators.",
+      "url": "https://github.com/MABYY/Time-series-analysis-using-LSTM",
+      "highlights": [
+        "With the help of an LSTM network, we will try to predict the future price of Bitcoin. In order to do this, we used data based on the price of the past 9 years and calculated technical analysis indicators."
+      ],
+      "images": [
         {
-          "img_path": "https://picsum.photos/600/338?random=5",
-          "caption": "Image Caption 5"
-        },
+          "img_path": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg",
+          "caption": "Python"
+        }
+      ]
+    },
+         {
+      "title": "Backtesting using OOP",
+      "summary": "This project explores Bitcoin price using an LSTM model and technical analysis indicators.",
+      "url": "https://github.com/MABYY/Backtesting_using_OOP",
+      "highlights": [
+       "With the help of an LSTM network we estimated a model the predictis the future price of BTC for the day after."
+      ],
+      "images": [
         {
-          "img_path": "https://picsum.photos/600/338?random=6",
-          "caption": "Image Caption 6"
+          "img_path": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg",
+          "caption": "Python"
         }
       ]
     }
@@ -134,69 +149,46 @@
   ],
   "education": [
     {
-      "institution": "Institution One",
-      "location": "Institution One Location",
-      "url": "https://sample.com",
-      "degrees": [
-        "Master of Science in Computer Science",
-        "Minor in Mathematics"
-      ],
-      "honors": ["Outstanding Student Award", "Dean's List"],
-      "gpa_cumulative": "3.5",
-      "gpa_major": "4.0",
-      "graduation_date": "01/01/2005"
+      "institution": "Harvard Extension School",
+      "location": "Cambridge, MA, USA",
+      "url": "https://extension.harvard.edu/academics/programs/data-science-graduate-certificate/",
+      "degrees": ["Certificate in Data Science" ],
+      "graduation_date": "06/30/2020"
     },
     {
-      "institution": "Institution Two",
-      "location": "Institution Two Location",
-      "url": "https://sample.com",
-      "degrees": ["Bachelor of Science in Physics"],
-      "honors": ["Scholarship Recipient"],
-      "gpa_cumulative": "3.2",
-      "gpa_major": "3.9",
-      "graduation_date": "01/01/2000"
+      "institution": "Universidad Torcuato DI Tella",
+      "location": "Buenos Aires, BA, Argentina",
+      "url": "https://www.utdt.edu/",
+      "degrees": ["Masters in Econometrics"],
+      "graduation_date": "06/30/2015"
+    },
+      {
+      "institution": "Universidad Torcuato DI Tella",
+      "location": "Buenos Aires, BA, Argentina",
+      "url": "https://www.utdt.edu/",
+      "degrees": ["Masters in Finance"],
+      "graduation_date": "12/30/2007"
+    },
+       {
+      "institution": "Universidad Torcuato DI Tella",
+      "location": "Buenos Aires, BA, Argentina",
+      "url": "https://www.utdt.edu/",
+      "degrees": ["Bachelors Degree in Economics"],
+      "graduation_date": "06/30/2006"
     }
   ],
   "skills": [
     {
-      "name": "My First Skill",
-      "proficiency": 100,
-      "proficiency_label": "Proficiency Level"
+      "type": "Backend",
+      "name": "Node.js, Express, SQL, PostgreSQL, Docker, Java Spring Boot, Python, Django, Git CLI , Vercel, Heroku,"
     },
     {
-      "name": "My Second Skill",
-      "proficiency": 80,
-      "proficiency_label": "Proficiency Level"
-    }
-  ],
-  "interests": [
-    {
-      "name": "My First Hobby",
-      "summary": "Short summary about my first Hobby",
-      "images": [
-        {
-          "img_path": "https://picsum.photos/600/338?random=7",
-          "caption": "Image Caption 7"
-        },
-        {
-          "img_path": "https://picsum.photos/600/338?random=8",
-          "caption": "Image Caption 8"
-        }
-      ]
+      "type": "Frontend",
+      "name": "Angular, React.js, JavaScript, HTML, CSS, Bootstrap,"
     },
     {
-      "name": "My Second Hobby",
-      "summary": "Short summary about my second hobby",
-      "images": [
-        {
-          "img_path": "https://picsum.photos/600/338?random=9",
-          "caption": "Image Caption 9"
-        },
-        {
-          "img_path": "https://picsum.photos/600/338?random=10",
-          "caption": "Image Caption 10"
-        }
-      ]
+      "type": "Other",
+      "name": "Data Science"
     }
   ],
   "languages": [
@@ -204,21 +196,30 @@
       "language": "English",
       "fluency": "Native speaker"
     },
+         {
+      "language": "Spanish",
+      "fluency": "Native speaker"
+    },
     {
-      "language": "American Sign Language",
-      "fluency": "Professional Working Proficiency"
+      "language": "French",
+      "fluency": "Intermediate Speaker"
     }
   ],
   "references": [
     {
-      "name": "Person One",
+      "name": "Gustavo Ber",
       "relation": "Previous Boss",
-      "reference": "Some nice things that Person One said about you, your work ethic, and how you provided value to their team."
+      "reference": "Metlife"
     },
     {
-      "name": "Person Two",
+      "name": "Christian Hejeij",
+      "relation":  "Previous Boss",
+      "reference": "Metlfe & GPS Investments"
+    },
+       {
+      "name": "Lucila Tiphanine",
       "relation": "Previous Coworker",
-      "reference": "More kind things that Person Two said about you, what it was like working with you, and things you've accomplished."
+      "reference": "Schroders"
     }
   ]
 }
