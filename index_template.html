@@ -153,7 +153,7 @@
                       {% for highlight in project.highlights %}<li>{{ highlight }}</li>{% endfor %}
                     </ul>
                   {% endif %}
-                  {% if project.images %}
+                  <!-- {% if project.images %}
                     <div class="gallery main-gallery">
                       {% for img in project.images %}
                         <figure>
@@ -165,13 +165,13 @@
                         </figure>
                       {% endfor %}
                     </div>
-                  {% endif %}
+                  {% endif %} -->
                 </section>
               {% endfor %}
             </section>
           {% endif %}
 
-          {% if volunteer_experience %}
+          <!-- {% if volunteer_experience %}
             <section>
               <h2 class="section-heading">Volunteer Experience</h2>
               {% for vol in volunteer_experience %}
@@ -195,7 +195,7 @@
                 </section>
               {% endfor %}
             </section>
-          {% endif %}
+          {% endif %} -->
 
           {% if references %}
             <section>
@@ -205,9 +205,9 @@
                   {% if ref.name %}<h3>{{ ref.name }}</h3>{% endif %}
                   {% if ref.relation %}<p class="section-label">{{ ref.relation }}</p>{% endif %}
                   {% if ref.reference %}
-                    <blockquote>
+                    <!-- <blockquote>
                       {{ ref.reference }}
-                    </blockquote>
+                    </blockquote> -->
                   {% endif %}
                 </section>
               {% endfor %}
@@ -261,7 +261,7 @@
                 {% for skill in skills %}
                   <li>
                     <h3>{{ skill.name }}</h3>
-                    <div class="skill-bar">
+                    <!-- <div class="skill-bar">
                       <div class="skill-bar-fill w-{{ skill.proficiency }}"
                            role="meter"
                            aria-valuenow="{{ skill.proficiency }}"
@@ -269,7 +269,7 @@
                            aria-valuemax="100">
                         <span class="skill-bar-label">{{ skill.proficiency_label }}</span>
                       </div>
-                    </div>
+                    </div> -->
                   </li>
                 {% endfor %}
               </ul>

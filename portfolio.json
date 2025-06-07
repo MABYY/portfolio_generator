@@ -180,7 +180,7 @@
   "skills": [
     {
       "type": "Backend",
-      "name": "Node.js, Express, SQL, PostgreSQL, Docker, Java Spring Boot, Python, Django, Git CLI , Vercel, Heroku,"
+      "name": "Node.js, Express, SQL, PostgreSQL, Docker, Java Spring Boot, Python, Django, Git "
     },
     {
       "type": "Frontend",
