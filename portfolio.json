@@ -90,7 +90,7 @@
     },
     {
       "title": "Portfolio Daily Data",
-      "summary": "Analize the Argentinean Mutual Fund Industry",
+      "summary": "Track the Argentinean Mutual Fund Industry",
       "url": "https://github.com/MABYY/portfolio_data",
       "highlights": [
         "Organized and pulled data available through the Argentinean mutual funds’ chamber (CAFCI) public API using Python",
@@ -162,6 +162,13 @@
     }
   ],
   "education": [
+        {
+      "institution": "Bloomtech",
+      "location": "Miami, FL, USA",
+      "url": "https://www.bloomtech.com/",
+      "degrees": ["Certificate in Full Stack Developement" ],
+      "graduation_date": "06/30/2022"
+    },
     {
       "institution": "Harvard Extension School",
       "location": "Cambridge, MA, USA",
