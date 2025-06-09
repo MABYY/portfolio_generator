@@ -159,14 +159,14 @@
                 <section>
                   <h3>
                     {% if edu.url %}
-                      <a href="{{ edu.url }}">{{ edu.institution }}</a>
+                      <a href="{{ edu.url }}">{{ edu.institution }} </a>
                     {% else %}
                       {{ edu.institution }}
                     {% endif %}
                   </h3>
                   {% if edu.location %}<p class="section-label">{{ edu.location }}</p>{% endif %}
                   {% if edu.degrees %}
-                    <h4>Degrees</h4>
+                    <!-- <h4>Degrees</h4> -->
                     <ul>
                       {% for deg in edu.degrees %}<li>{{ deg }}</li>{% endfor %}
                     </ul>
