@@ -55,6 +55,42 @@
         "Performed FX & IR modeling and weekly follow-ups using Python applications and provided daily asset pricing using VBA",
         "Exchanged and implemented trade ideas with institutional clients daily"
       ]
+    },
+     {
+      "company": "GPS Investments",
+      "position": "Corporate Analyst",
+      "url": "",
+      "start_date": "03/01/2009",
+      "end_date": "11/06/2011",
+      "summary": "Portfolio management for institutional clients",
+      "highlights": [
+        "Successfully tailored and implemented investment strategies for institutional clients who needed to comply with both the current regulation and their performance goals.",
+        "Successfully tailored and implemented  bond investment strategies to the investment funds under administration",
+      "Provided industry-tracking coverage of both local and international companies (valuation models DCF and comparative ratios)",
+      "Performed credit analysis (liquidity and leverage ratios) in order to spot and suggest new investment opportunities to the management."      
+      ]
+    },
+    {
+      "company": "Metlife",
+      "position": "Corporate Analyst",
+      "url": "https://www.metlife.com/",
+      "start_date": "09/01/2008",
+      "end_date": "01/30/2009",
+      "summary": "Pension fund equity analysis and portfolio management ",
+      "highlights": [
+      "Provided industry-tracking coverage of both local and international companies (valuation models DCF and comparative ratios)",
+      "Performed credit analysis (liquidity and leverage ratios) in order to spot and suggest new investment opportunities to the management."      ]
+    },
+        {
+      "company": "Jr. Equity Analyst - Jr. Assistant at the Trading Desk",
+      "position": "Corporate Analyst",
+      "url": "https://www.metlife.com/",
+      "start_date": "09/01/2008",
+      "end_date": "01/30/2009",
+      "summary": "Portfolio management for institutional clients",
+      "highlights": [
+      "Research on Argentine companies. Valuation models – DCF and relative ratios"     
+      ]
     }
   ],
   "projects": [
@@ -107,7 +143,7 @@
       {
       "title": "Time series analysis using LSTM",
       "summary": "This project explores Bitcoin price using an LSTM model and technical analysis indicators.",
-      "url": "https://github.com/MABYY/Time-series-analysis-using-LSTM",
+      "url": "https://github.com/MABYY/BTC_LSTM",
       "highlights": [
         "With the help of an LSTM network, we will try to predict the future price of Bitcoin. In order to do this, we used data based on the price of the past 9 years and calculated technical analysis indicators."
       ],
@@ -118,10 +154,10 @@
         }
       ]
     },
-         {
-      "title": "Backtesting using OOP",
-      "summary": "This project explores Bitcoin price using an LSTM model and technical analysis indicators.",
-      "url": "https://github.com/MABYY/Backtesting_using_OOP",
+    {
+      "title": "Yield Curve Modeling",
+      "summary": "Interest rates term structure modeling is of fundamental importance both to financial market players and to monetary policy makers. This project replicates BOFA's modeling approach consists of a two-step process which the use to extract a trading rule.",
+      "url": "https://github.com/MABYY/yield_curve_modeling",
       "highlights": [
        "With the help of an LSTM network we estimated a model the predictis the future price of BTC for the day after."
       ],
